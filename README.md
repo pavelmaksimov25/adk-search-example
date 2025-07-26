@@ -9,6 +9,15 @@ A simple agent application built with Google's Agent Development Kit (ADK) that 
 - Python 3.13 or higher
 - Google ADK api key
 
+### Getting Your API Key
+
+To use this application, you'll need a Gemini API key from Google AI Studio:
+
+1. Visit [Google AI Studio](https://aistudio.google.com/apikey)
+2. Sign in with your Google Account
+3. Generate a new API key for your project
+4. Copy the API key - you'll need it for the configuration step below
+
 ### Setup
 
 1. **Clone the repository:**
@@ -45,7 +54,7 @@ A simple agent application built with Google's Agent Development Kit (ADK) that 
 # Activate your environment
 source venv/bin/activate  # or `uv shell` if using uv
 
-# Run the search agent
+# Run the search agent and follow the instructions
 adk web
 ```
 
